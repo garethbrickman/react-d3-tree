@@ -1,0 +1,24 @@
+/* custom-tree.css */
+
+.node__root > circle {
+    fill: #fd9b93;
+    stroke: none;
+}
+
+.node__branch > circle {
+    fill: #03c0dc;
+    stroke: none;
+}
+
+.node__leaf > circle {
+    fill: #26deb0;
+    stroke: none;
+}
+
+.link__from-root {
+    stroke: rgb(26, 100, 151) !important;
+}
+
+.link__from-branch {
+    stroke: rgb(26, 100, 151) !important;
+}
